@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     font-family: "Sora", sans-serif;
-    /* overflow: hidden; */
 }
 
 /* -------------------Spotlight------------------------ */
@@ -791,23 +790,38 @@
 #dailybestsell .daily-content {
     margin-top: 40px;
     width: 100%;
+    
 }
-
+.dailyimg-1{
+    position: relative;
+}
+.save{
+    position:absolute;
+    top: 0;
+    left: 0;
+    background: #FFD480;
+    padding:5px 10px;
+    color: #fff;
+    border-radius: 3px;
+}
+.green1{
+    background: #DEF9EC;
+    color: #3BB77E;
+}
 #dailybestsell .daily-content .items3 {
-    /* margin: 30px 30px; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* gap: 1rem; */
 }
-
+#dailybestsell .daily-content .items3 .column-daily{
+    border-radius: 5px;
+}
 #dailybestsell .daily-content .items3 .column-daily,
 #dailybestsell .daily-content .items3.log {
-    border: 1px solid #ADADAD;
+    border: 1px solid #adadad77;
     background-color: #fff;
     position: relative;
-    /* gap: 1rem; */
     width: 17%;
     box-sizing: border-box;
     height: 23rem;
@@ -905,7 +919,7 @@ progress {
 }
 
 .log form .register {
-    margin-top: 10px;
+    margin-top: 30px;
     border: none;
     background: #3BB77E;
     color: white;
@@ -996,6 +1010,7 @@ progress {
     color: #333;
 }
 
+  
 .product {
     display: flex;
     align-items: center;
