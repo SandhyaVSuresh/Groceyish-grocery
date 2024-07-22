@@ -15,23 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
   });
-  document.addEventListener("DOMContentLoaded", function() {
-    var menuIcon = document.querySelector(".menu-icon1");
-    var Bar = document.querySelector('.explore-nav');
   
-    menuIcon.addEventListener("click", function() {
-        navBar.classList.toggle('active');
-        toggleMenuIcon();
-    });
-  
-    function toggleMenuIcon() {
-        if (Bar.classList.contains('active')) {
-            menuIcon.innerHTML = '<i class="bi bi-x"></i>';
-        } else {
-            menuIcon.innerHTML = '<i class="bi bi-list"></i>';
-        }
-    }
-  });
 //   footer
 document.addEventListener("DOMContentLoaded", function() {
     var plusElements = document.querySelectorAll(".plus");
