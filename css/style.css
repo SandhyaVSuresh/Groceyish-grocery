@@ -221,7 +221,7 @@
     background: #3BB77E;
     padding: 10px;
     float: right;
-    counter-reset: #fff;
+    color: white;
 }
 
 #spotlight .content .contentright {
@@ -355,7 +355,14 @@
         top: 210px;
     }
 }
-
+@media (max-width:400px){
+    #spotlight .nav2 .all .display-icon {
+        margin: 0px 4px;
+    }
+    #spotlight .nav2 .all .all-text {
+        font-size: 13px;
+    }
+}
 /* ---------------explorecategorie----------------- */
 
 #explorecategorie {
@@ -894,6 +901,7 @@ progress {
 .log form .inputbox input {
     border: none;
     background: none;
+    outline: none;
 }
 
 .log form .register {
