@@ -62,11 +62,12 @@
 
 #spotlight .nav1 .cart {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #spotlight .nav1 .cart .cart-text {
     padding: 0px 2px;
-    font-size: 19px;
 }
 
 #spotlight .nav1 .cart.mycart {
