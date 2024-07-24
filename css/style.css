@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: "Sora", sans-serif;
+    /* overflow: hidden; */
 }
 
 /* -------------------Spotlight------------------------ */
@@ -50,7 +51,8 @@
 
 .nav1end {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 1rem;
 }
 
 #spotlight .nav1 .wishlist {
@@ -60,22 +62,25 @@
 
 #spotlight .nav1 .cart {
     display: flex;
-    justify-content: center;
 }
 
 #spotlight .nav1 .cart .cart-text {
-    padding: 0px 5px;
+    padding: 0px 2px;
+    font-size: 19px;
 }
 
-.mycart {
-    font: 15px;
+#spotlight .nav1 .cart.mycart {
+    font-size: 15px;
 }
 
 #spotlight .nav1 .cart .cart-text .rate {
     font-size: 13px;
     color: #3BB77E;
 }
-
+#spotlight .nav1 .cart .downsvg {
+    width: 20px;
+    height: 20px;
+}
 #spotlight .nav1 .person {
     display: flex;
 }
@@ -83,11 +88,6 @@
 #spotlight .nav1 .person .select_p {
     border: none;
     outline: none;
-}
-
-#spotlight .nav1 .cart .downsvg {
-    width: 20px;
-    height: 20px;
 }
 
 #spotlight .nav2 {
@@ -278,7 +278,6 @@
         right: 0;
         width: 260px;
         background-color: #fff;
-        transition: 0.2s;
         overflow: hidden;
         display: flex;
         flex-direction: column;
@@ -1252,7 +1251,12 @@ footer {
         padding: 20px 30px;
         justify-content: center;
     }
-
+    .footerlogo{
+        margin: 10px 0px;
+    }
+    .address{
+        margin: 20px 0px;
+    }
     .footer-col {
         /* width: 1000px; */
     }
