@@ -886,12 +886,17 @@ progress {
 }
 
 .log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background: #fff5e1d9;
     width: 18%;
-    height: 23rem;
+    height: 22.5rem;
     background-image: url(../images/Rectangle\ 12.png);
     background-size: cover;
+    padding: 0px 7px;
 }
 
 .log .log-title {
