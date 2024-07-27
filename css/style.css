@@ -794,6 +794,9 @@
 }
 .dailyimg-1{
     position: relative;
+    width: 100%;
+    
+    
 }
 .save{
     position:absolute;
@@ -824,12 +827,12 @@
     position: relative;
     width: 17%;
     box-sizing: border-box;
-    height: 23rem;
+    height: fit-content;
     margin: 10px;
 }
 
 #dailybestsell .daily-content .items3 .column-daily .dailyimg {
-    width: 60%;
+    width: 100%;
 }
 
 #dailybestsell .daily-content .items3 .column-daily .column-content .title {
@@ -840,7 +843,7 @@
 
 #dailybestsell .daily-content .items3 .column-daily .column-content h4 {
     padding: 0px 20px;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .items3 .column-daily .column-content .rating i {
@@ -879,7 +882,7 @@ progress {
     color: white;
     border: none;
     padding: 10px;
-    margin: 10px 10px;
+    margin: 10px 10px 15px 10px;
 }
 
 .log {
@@ -892,7 +895,7 @@ progress {
 }
 
 .log .log-title {
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 30px;
     color: #030303;
 }
